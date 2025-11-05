@@ -7,6 +7,14 @@
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
 	import CenteredTextOnlyHero from "$lib/components/layout/hero-sections/CenteredTextOnlyHero.svelte";
+
+	// Icons
+	import IconBuilding from "~icons/lucide/building-2";
+	import IconCompass from "~icons/lucide/compass";
+	import IconLightbulb from "~icons/lucide/lightbulb";
+	import IconLayers from "~icons/lucide/layers";
+	import IconTarget from "~icons/lucide/target";
+	import IconNetwork from "~icons/lucide/network";
 </script>
 
 <CenteredTextOnlyHero
@@ -25,62 +33,97 @@
 />
 
 <Summary
-	generating
 	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	text="Augmented Intelligence bridges the gap between AI ambition and enterprise reality. We deliver proven implementation frameworks and transformation insights that help HR leaders, executives, and enterprise teams successfully navigate AI adoption—turning strategic uncertainty into confident, practical action."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Priya Mehta",
+			position: "Chief People Officer",
+			company: "Enterprise Analytics Corp",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Nelson's frameworks helped us roll out AI tools to 2,400 employees in 90 days instead of the projected six months. We avoided the costly mistakes that derailed our first attempt and saved over $400K in consulting fees.",
+			image: "/generated/image-editorial-style-environmental-portrait-o.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Marcus Washington",
+			position: "VP of Transformation",
+			company: "Global Financial Services",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"The enterprise case studies gave us confidence to move forward when our board was skeptical. We reduced implementation risk by learning from documented rollouts and cut our pilot phase from 12 weeks to 4 weeks.",
+			image: "/generated/image-editorial-environmental-portrait-of-a-bl.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Carmen Ruiz",
+			position: "Head of Learning & Development",
+			company: "TechCorp Industries",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"The career transformation frameworks helped us reskill 150 team members in three months. We retained 94% of our workforce through the AI transition instead of facing the costly turnover our competitors experienced.",
+			image: "/generated/image-documentary-style-professional-headshot-.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Why Augmented Intelligence"
+	subtitle="Practical insights from the frontlines of AI transformation, designed for leaders who need proven frameworks over theoretical advice."
 	features={[
 		{
-			title: "Streamlined Workflows",
+			title: "Enterprise implementation frameworks",
 			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+				"Learn what the successful 20% of AI rollouts actually do. Get documented strategies that overcome the most common implementation barriers facing enterprise leaders today.",
+			icon: IconBuilding
 		},
 		{
-			title: "Data Analysis",
+			title: "Career transformation guidance",
 			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+				"Navigate your career in an AI-augmented world with practical job search strategies and skill-building frameworks that prepare you for the future of work.",
+			icon: IconCompass
 		},
 		{
-			title: "Secure Collaboration",
+			title: "Real practitioner insights",
 			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+				"Access learnings from building multiple AI-powered ventures simultaneously. No theory, just tactical decisions and systems that work in the real world.",
+			icon: IconLightbulb
+		},
+		{
+			title: "Five curated content pillars",
+			description:
+				"Subscribe to what matters to you. From enterprise briefs to technical deep-dives, each newsletter serves a specific audience need with targeted expertise.",
+			icon: IconLayers
+		},
+		{
+			title: "Working out loud philosophy",
+			description:
+				"Follow along as insights emerge from active consulting, workshops, and venture building. Get actionable guidance tested in real implementations, not abstract concepts.",
+			icon: IconTarget
+		},
+		{
+			title: "Integrated thought leadership",
+			description:
+				"Bridge insights across consulting engagements, keynote speaking, and startup building. One ecosystem connecting enterprise transformation with emerging AI capabilities.",
+			icon: IconNetwork
 		}
 	]}
 />
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction 
+	title="Don't let your competitors master AI transformation first"
+	subtitle="Subscribe for proven frameworks"
+	description="Every week, thousands of enterprise leaders get practical AI implementation insights that their competitors don't. Join CHROs, VPs of transformation, and L&D heads who turned implementation uncertainty into strategic advantage. Your peers are already moving—and they're documenting what works."
+	imageSrc="/generated/image-a-confident-enterprise-executive-stands-.webp"
+	callsToAction={[
+		{
+			href: "https://augintelligence.co",
+			label: "Subscribe to insights",
+			variant: "primary"
+		},
+		{
+			href: "/about",
+			label: "Learn more",
+			variant: "secondary"
+		}
+	]}
+/>

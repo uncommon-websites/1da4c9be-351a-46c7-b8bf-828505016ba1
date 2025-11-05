@@ -21,9 +21,9 @@ A minimalist teaser for the about page.
 
 	// Data
 	const teamMember: TeamMember = {
-		name: "Alex Morgan",
-		role: "Founder & CEO",
-		image: "https://www.unc.mn/image-placeholder.svg"
+		name: "Nelson Spencer",
+		role: "Founder",
+		image: "/generated/image-environmental-editorial-portrait-of-a-th.webp"
 	};
 </script>
 
@@ -32,7 +32,7 @@ A minimalist teaser for the about page.
 		<div class="relative mx-auto grid max-w-2xl place-items-center gap-16">
 			<ScrollText
 				class="text-title1 text-center"
-				text={`"We're building the future of digital experiences, crafting innovative solutions that transform how people interact with technology in their everyday lives"`}
+				text={`"After helping dozens of enterprises navigate AI adoption, I kept seeing the same gap: brilliant strategies failing at implementation. I built Augmented Intelligence to share what actually works—the documented frameworks, real case studies, and honest lessons from building multiple AI ventures simultaneously. This isn't theory. It's what I learn by doing."`}
 			/>
 
 			<!-- Team Member & CTA Section -->
