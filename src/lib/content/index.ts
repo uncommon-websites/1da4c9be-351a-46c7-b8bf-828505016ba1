@@ -1,7 +1,7 @@
 export const CONFIG = {
-	companyName: "Company",
-	description: "Description",
+	companyName: "Augmented Intelligence",
+	description: "AI implementation insights via enterprise case studies and career transformation frameworks for the future of work",
 	image: "/og.png",
-	url: "https://example.com",
-	fontFamily: "Inter Variable"
+	url: "https://augintelligence.co",
+	fontFamily: "Source Sans Pro"
 };
