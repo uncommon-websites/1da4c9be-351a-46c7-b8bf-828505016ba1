@@ -3,7 +3,38 @@
 	const props: HTMLAttributes<SVGSVGElement> = $props();
 </script>
 
-<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="" {...props}>
-	<rect x="4" y="4" width="11" height="11" rx="2" fill="currentColor" />
-	<rect x="9" y="9.5" width="10" height="10" rx="2" fill="currentColor" fill-opacity="0.24" />
+<svg viewBox="0 0 91 92" fill="none" xmlns="http://www.w3.org/2000/svg" class="" {...props}>
+<path d="M45.5078 2V20.5" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M45.5078 71V89.5" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M45.5078 2V20.5" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M45.5078 71V89.5" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M1.75781 45.75L20.2578 45.75" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M70.7578 45.75L89.2578 45.75" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M1.75781 45.75L20.2578 45.75" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M70.7578 45.75L89.2578 45.75" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M14.5723 14.8141L27.6537 27.8956" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M63.3623 63.6045L76.4438 76.686" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M14.5723 14.8141L27.6537 27.8956" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M63.3623 63.6045L76.4438 76.686" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M14.5723 76.686L27.6537 63.6046" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M63.3623 27.8956L76.4438 14.8142" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M14.5723 76.686L27.6537 63.6046" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M63.3623 27.8956L76.4438 14.8142" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M62.6025 5.47791L55.374 22.5072" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M35.6416 68.9927L28.4131 86.022" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M62.6025 5.47791L55.374 22.5072" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M35.6416 68.9927L28.4131 86.022" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M5.23535 28.6555L22.2647 35.884" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M68.75 55.616L85.7793 62.8445" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M5.23535 28.6555L22.2647 35.884" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M68.75 55.616L85.7793 62.8445" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M29.1191 5.18567L36.0494 22.3386" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M54.9668 69.1614L61.897 86.3143" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M29.1191 5.18567L36.0494 22.3386" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M54.9668 69.1614L61.897 86.3143" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M4.94336 62.1392L22.0963 55.2089" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M68.9189 36.2913L86.0718 29.361" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M4.94336 62.1392L22.0963 55.2089" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M68.9189 36.2913L86.0718 29.361" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"/>
 </svg>
+
