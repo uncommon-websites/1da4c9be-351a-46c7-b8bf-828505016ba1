@@ -6,7 +6,7 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import CenteredTextOnlyHero from "$lib/components/layout/hero-sections/CenteredTextOnlyHero.svelte";
+	import CustomerCardHero from "$lib/components/layout/hero-sections/CustomerCardHero.svelte";
 
 	// Icons
 	import IconBuilding from "~icons/lucide/building-2";
@@ -17,10 +17,46 @@
 	import IconNetwork from "~icons/lucide/network";
 </script>
 
-<CenteredTextOnlyHero
+<CustomerCardHero
 	title="AI is transforming the future of work"
 	subtitle="Enterprise case studies, implementation frameworks, and career transformation insights for leaders navigating AI adoption."
-	imageSrc="/generated/image-a-professional-office-environment-bathed.webp"
+	customers={[
+		{
+			name: "Sarah Chen",
+			position: "Chief People Officer",
+			imageSrc: "/generated/image-editorial-environmental-portrait-of-a-co.webp"
+		},
+		{
+			name: "Marcus Rodriguez",
+			position: "VP of Transformation",
+			imageSrc: "/generated/image-professional-woman-leader-in-a-modern-co.webp"
+		},
+		{
+			name: "Elena Volkov",
+			position: "Head of Learning & Development",
+			imageSrc: "/generated/image-business-professional-in-a-thoughtful-po.webp"
+		},
+		{
+			name: "James Patterson",
+			position: "Director of Enterprise AI",
+			imageSrc: "/generated/image-corporate-leader-portrait-in-a-real-offi.webp"
+		},
+		{
+			name: "Aisha Okonkwo",
+			position: "Chief Innovation Officer",
+			imageSrc: "/generated/image-enterprise-executive-in-a-contemporary-s.webp"
+		}
+	]}
+	callsToAction={[
+		{
+			href: "https://augintelligence.co",
+			label: "Subscribe to insights"
+		},
+		{
+			href: "/about",
+			label: "Learn more"
+		}
+	]}
 />
 <LogoScroller 
 	label="Trusted by industry leaders"
